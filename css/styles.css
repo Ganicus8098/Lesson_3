@@ -1,0 +1,111 @@
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+ol{
+	color: rgb(46, 139, 87);
+}
+ul{
+	color: rgb(7, 248, 127);
+}
+p{
+	color: rgb(167, 47, 26);
+}
+h2{
+	color: rgb(255, 0, 0);
+}
+.header h1{
+	color: rgb(240, 154, 49);
+}
+.menu a{
+   color: rgb(250, 7, 7);
+}
+.block-1 h2,p,a{
+   color: rgb(22, 70, 117);
+}
+.text {
+	color: rgb(133, 69, 23);
+}
+.block-2 h2{
+	color: rgb(18, 235, 213);
+}
+.text-2{
+	color: rgb(230, 74, 230);
+}
+.block-2 li{
+	color: rgb(156, 156, 6);
+}
+.text-3{
+	color: rgb(6, 6, 248);
+}
+.one{
+   color: rgb(224, 14, 14);
+}
+.list{
+	color: rgb(41, 72, 104);
+}
+.block-4 > p{
+	color: rgb(33, 84, 240);
+}
+span.keyword1{
+	color: rgb(23, 8, 238);
+}
+.text-1-1 span{
+	color: rgb(8, 235, 84);
+}
+.text-2-2 span{
+	color: rgb(252, 8, 8);
+}
+[title="bike"]{
+	color: rgb(191, 230, 21);
+}
+.about_text p,.blocks_text p{
+   color: rgb(218, 165, 32);
+}
+.text-5 span{
+	color: rgb(19, 17, 18);
+}
+.block-6 p{
+	color: rgb(253, 43, 6);
+}
+.text-6 span{
+	color: rgb(247, 8, 127);
+}
+.block-7 p{
+	color: rgb(0, 128, 0);
+}
+.next_text + p{
+	color: rgb(138, 43, 226);
+}
+.text_next ~ p{
+	color: rgb(255, 0, 51);
+}
+.section_1 > p > span{
+	color: rgb(255, 9, 30);
+}
